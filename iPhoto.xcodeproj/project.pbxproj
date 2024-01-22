@@ -7,36 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47E6517F2B5EAB4900EA1AC1 /* iPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6517E2B5EAB4900EA1AC1 /* iPhotoApp.swift */; };
-		47E651812B5EAB4900EA1AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651802B5EAB4900EA1AC1 /* ContentView.swift */; };
 		47E651832B5EAB4A00EA1AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E651822B5EAB4A00EA1AC1 /* Assets.xcassets */; };
 		47E651862B5EAB4A00EA1AC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E651852B5EAB4A00EA1AC1 /* Preview Assets.xcassets */; };
-		47E6518E2B5EAC3400EA1AC1 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6518D2B5EAC3400EA1AC1 /* PhotoList.swift */; };
-		47E651912B5EAC8E00EA1AC1 /* ForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651902B5EAC8E00EA1AC1 /* ForYou.swift */; };
-		47E651932B5EACB600EA1AC1 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651922B5EACB600EA1AC1 /* Albums.swift */; };
-		47E651952B5EACC400EA1AC1 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651942B5EACC400EA1AC1 /* Search.swift */; };
-		47E6519A2B5EB10A00EA1AC1 /* PhotosGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651992B5EB10A00EA1AC1 /* PhotosGridView.swift */; };
-		47E6519C2B5EDB2D00EA1AC1 /* TopListActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6519B2B5EDB2D00EA1AC1 /* TopListActions.swift */; };
-		47E6519E2B5EDB5600EA1AC1 /* BottomFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6519D2B5EDB5600EA1AC1 /* BottomFilter.swift */; };
-		47E651A12B5EDC5600EA1AC1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651A02B5EDC5600EA1AC1 /* AppButton.swift */; };
-		47E651A32B5EEE2100EA1AC1 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651A22B5EEE2100EA1AC1 /* LabelStyle.swift */; };
+		47E651BD2B5F07ED00EA1AC1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651B82B5F07ED00EA1AC1 /* Colors.swift */; };
+		47E651BF2B5F07ED00EA1AC1 /* iPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651BA2B5F07ED00EA1AC1 /* iPhotoApp.swift */; };
+		47E651C12B5F07ED00EA1AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651BC2B5F07ED00EA1AC1 /* ContentView.swift */; };
+		47E651C72B5F0A1500EA1AC1 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651C42B5F098E00EA1AC1 /* PhotoList.swift */; };
+		47E651C82B5F0A1800EA1AC1 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651C52B5F098E00EA1AC1 /* Albums.swift */; };
+		47E651C92B5F0A1D00EA1AC1 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651C62B5F098E00EA1AC1 /* Search.swift */; };
+		47E651CA2B5F0A1F00EA1AC1 /* ForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651C32B5F098E00EA1AC1 /* ForYou.swift */; };
+		47E651D42B5F0AD700EA1AC1 /* PhotosGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651CE2B5F0AD700EA1AC1 /* PhotosGridView.swift */; };
+		47E651D52B5F0AD700EA1AC1 /* BottomFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651CF2B5F0AD700EA1AC1 /* BottomFilter.swift */; };
+		47E651D62B5F0AD700EA1AC1 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651D12B5F0AD700EA1AC1 /* LabelStyle.swift */; };
+		47E651D72B5F0AD700EA1AC1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651D22B5F0AD700EA1AC1 /* AppButton.swift */; };
+		47E651D82B5F0AD700EA1AC1 /* TopListActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651D32B5F0AD700EA1AC1 /* TopListActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47E6517B2B5EAB4900EA1AC1 /* iPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47E6517E2B5EAB4900EA1AC1 /* iPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhotoApp.swift; sourceTree = "<group>"; };
-		47E651802B5EAB4900EA1AC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47E651822B5EAB4A00EA1AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E651852B5EAB4A00EA1AC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		47E6518D2B5EAC3400EA1AC1 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
-		47E651902B5EAC8E00EA1AC1 /* ForYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYou.swift; sourceTree = "<group>"; };
-		47E651922B5EACB600EA1AC1 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
-		47E651942B5EACC400EA1AC1 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
-		47E651992B5EB10A00EA1AC1 /* PhotosGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosGridView.swift; path = ../../../../../../PhotosGridView.swift; sourceTree = "<group>"; };
-		47E6519B2B5EDB2D00EA1AC1 /* TopListActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopListActions.swift; path = ../../../../../../TopListActions.swift; sourceTree = "<group>"; };
-		47E6519D2B5EDB5600EA1AC1 /* BottomFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BottomFilter.swift; path = ../../../../../../BottomFilter.swift; sourceTree = "<group>"; };
-		47E651A02B5EDC5600EA1AC1 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppButton.swift; path = ../../../../../../../AppButton.swift; sourceTree = "<group>"; };
-		47E651A22B5EEE2100EA1AC1 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelStyle.swift; path = ../../../../../../../LabelStyle.swift; sourceTree = "<group>"; };
+		47E651B82B5F07ED00EA1AC1 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		47E651BA2B5F07ED00EA1AC1 /* iPhotoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhotoApp.swift; sourceTree = "<group>"; };
+		47E651BC2B5F07ED00EA1AC1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47E651C32B5F098E00EA1AC1 /* ForYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYou.swift; sourceTree = "<group>"; };
+		47E651C42B5F098E00EA1AC1 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		47E651C52B5F098E00EA1AC1 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		47E651C62B5F098E00EA1AC1 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		47E651CE2B5F0AD700EA1AC1 /* PhotosGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosGridView.swift; sourceTree = "<group>"; };
+		47E651CF2B5F0AD700EA1AC1 /* BottomFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomFilter.swift; sourceTree = "<group>"; };
+		47E651D12B5F0AD700EA1AC1 /* LabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		47E651D22B5F0AD700EA1AC1 /* AppButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		47E651D32B5F0AD700EA1AC1 /* TopListActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListActions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +71,11 @@
 		47E6517D2B5EAB4900EA1AC1 /* iPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				47E651962B5EAF9D00EA1AC1 /* components */,
-				47E6518C2B5EAC2700EA1AC1 /* screens */,
-				47E6517E2B5EAB4900EA1AC1 /* iPhotoApp.swift */,
-				47E651802B5EAB4900EA1AC1 /* ContentView.swift */,
+				47E651CD2B5F0AD700EA1AC1 /* components */,
+				47E651B82B5F07ED00EA1AC1 /* Colors.swift */,
+				47E651C22B5F098E00EA1AC1 /* screens */,
+				47E651BC2B5F07ED00EA1AC1 /* ContentView.swift */,
+				47E651BA2B5F07ED00EA1AC1 /* iPhotoApp.swift */,
 				47E651822B5EAB4A00EA1AC1 /* Assets.xcassets */,
 				47E651842B5EAB4A00EA1AC1 /* Preview Content */,
 			);
@@ -87,33 +90,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		47E6518C2B5EAC2700EA1AC1 /* screens */ = {
+		47E651C22B5F098E00EA1AC1 /* screens */ = {
 			isa = PBXGroup;
 			children = (
-				47E6518D2B5EAC3400EA1AC1 /* PhotoList.swift */,
-				47E651902B5EAC8E00EA1AC1 /* ForYou.swift */,
-				47E651922B5EACB600EA1AC1 /* Albums.swift */,
-				47E651942B5EACC400EA1AC1 /* Search.swift */,
+				47E651C32B5F098E00EA1AC1 /* ForYou.swift */,
+				47E651C42B5F098E00EA1AC1 /* PhotoList.swift */,
+				47E651C52B5F098E00EA1AC1 /* Albums.swift */,
+				47E651C62B5F098E00EA1AC1 /* Search.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
 		};
-		47E651962B5EAF9D00EA1AC1 /* components */ = {
+		47E651CD2B5F0AD700EA1AC1 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				47E6519F2B5EDC4C00EA1AC1 /* primitive */,
-				47E651992B5EB10A00EA1AC1 /* PhotosGridView.swift */,
-				47E6519B2B5EDB2D00EA1AC1 /* TopListActions.swift */,
-				47E6519D2B5EDB5600EA1AC1 /* BottomFilter.swift */,
+				47E651CE2B5F0AD700EA1AC1 /* PhotosGridView.swift */,
+				47E651CF2B5F0AD700EA1AC1 /* BottomFilter.swift */,
+				47E651D02B5F0AD700EA1AC1 /* primitive */,
+				47E651D32B5F0AD700EA1AC1 /* TopListActions.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
 		};
-		47E6519F2B5EDC4C00EA1AC1 /* primitive */ = {
+		47E651D02B5F0AD700EA1AC1 /* primitive */ = {
 			isa = PBXGroup;
 			children = (
-				47E651A02B5EDC5600EA1AC1 /* AppButton.swift */,
-				47E651A22B5EEE2100EA1AC1 /* LabelStyle.swift */,
+				47E651D12B5F0AD700EA1AC1 /* LabelStyle.swift */,
+				47E651D22B5F0AD700EA1AC1 /* AppButton.swift */,
 			);
 			path = primitive;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				TargetAttributes = {
 					47E6517A2B5EAB4900EA1AC1 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -188,17 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47E651932B5EACB600EA1AC1 /* Albums.swift in Sources */,
-				47E651812B5EAB4900EA1AC1 /* ContentView.swift in Sources */,
-				47E6517F2B5EAB4900EA1AC1 /* iPhotoApp.swift in Sources */,
-				47E651952B5EACC400EA1AC1 /* Search.swift in Sources */,
-				47E6518E2B5EAC3400EA1AC1 /* PhotoList.swift in Sources */,
-				47E6519A2B5EB10A00EA1AC1 /* PhotosGridView.swift in Sources */,
-				47E6519E2B5EDB5600EA1AC1 /* BottomFilter.swift in Sources */,
-				47E651912B5EAC8E00EA1AC1 /* ForYou.swift in Sources */,
-				47E651A32B5EEE2100EA1AC1 /* LabelStyle.swift in Sources */,
-				47E6519C2B5EDB2D00EA1AC1 /* TopListActions.swift in Sources */,
-				47E651A12B5EDC5600EA1AC1 /* AppButton.swift in Sources */,
+				47E651D72B5F0AD700EA1AC1 /* AppButton.swift in Sources */,
+				47E651CA2B5F0A1F00EA1AC1 /* ForYou.swift in Sources */,
+				47E651C82B5F0A1800EA1AC1 /* Albums.swift in Sources */,
+				47E651D62B5F0AD700EA1AC1 /* LabelStyle.swift in Sources */,
+				47E651C72B5F0A1500EA1AC1 /* PhotoList.swift in Sources */,
+				47E651BF2B5F07ED00EA1AC1 /* iPhotoApp.swift in Sources */,
+				47E651C92B5F0A1D00EA1AC1 /* Search.swift in Sources */,
+				47E651D42B5F0AD700EA1AC1 /* PhotosGridView.swift in Sources */,
+				47E651D52B5F0AD700EA1AC1 /* BottomFilter.swift in Sources */,
+				47E651BD2B5F07ED00EA1AC1 /* Colors.swift in Sources */,
+				47E651C12B5F07ED00EA1AC1 /* ContentView.swift in Sources */,
+				47E651D82B5F0AD700EA1AC1 /* TopListActions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iPhoto/Preview Content\"";
@@ -349,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grivefreely.hometest.iPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -359,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iPhoto/Preview Content\"";
