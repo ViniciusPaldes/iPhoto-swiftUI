@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E6517F2B5EAB4900EA1AC1 /* iPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6517E2B5EAB4900EA1AC1 /* iPhotoApp.swift */; };
+		47E651812B5EAB4900EA1AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651802B5EAB4900EA1AC1 /* ContentView.swift */; };
+		47E651832B5EAB4A00EA1AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E651822B5EAB4A00EA1AC1 /* Assets.xcassets */; };
+		47E651862B5EAB4A00EA1AC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E651852B5EAB4A00EA1AC1 /* Preview Assets.xcassets */; };
+		47E6518E2B5EAC3400EA1AC1 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6518D2B5EAC3400EA1AC1 /* PhotoList.swift */; };
+		47E651912B5EAC8E00EA1AC1 /* ForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651902B5EAC8E00EA1AC1 /* ForYou.swift */; };
+		47E651932B5EACB600EA1AC1 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651922B5EACB600EA1AC1 /* Albums.swift */; };
+		47E651952B5EACC400EA1AC1 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651942B5EACC400EA1AC1 /* Search.swift */; };
+		47E6519A2B5EB10A00EA1AC1 /* PhotosGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651992B5EB10A00EA1AC1 /* PhotosGridView.swift */; };
+		47E6519C2B5EDB2D00EA1AC1 /* TopListActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6519B2B5EDB2D00EA1AC1 /* TopListActions.swift */; };
+		47E6519E2B5EDB5600EA1AC1 /* BottomFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6519D2B5EDB5600EA1AC1 /* BottomFilter.swift */; };
+		47E651A12B5EDC5600EA1AC1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651A02B5EDC5600EA1AC1 /* AppButton.swift */; };
+		47E651A32B5EEE2100EA1AC1 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E651A22B5EEE2100EA1AC1 /* LabelStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47E6517B2B5EAB4900EA1AC1 /* iPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E6517E2B5EAB4900EA1AC1 /* iPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhotoApp.swift; sourceTree = "<group>"; };
+		47E651802B5EAB4900EA1AC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47E651822B5EAB4A00EA1AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E651852B5EAB4A00EA1AC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E6518D2B5EAC3400EA1AC1 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		47E651902B5EAC8E00EA1AC1 /* ForYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYou.swift; sourceTree = "<group>"; };
+		47E651922B5EACB600EA1AC1 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		47E651942B5EACC400EA1AC1 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		47E651992B5EB10A00EA1AC1 /* PhotosGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosGridView.swift; path = ../../../../../../PhotosGridView.swift; sourceTree = "<group>"; };
+		47E6519B2B5EDB2D00EA1AC1 /* TopListActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopListActions.swift; path = ../../../../../../TopListActions.swift; sourceTree = "<group>"; };
+		47E6519D2B5EDB5600EA1AC1 /* BottomFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BottomFilter.swift; path = ../../../../../../BottomFilter.swift; sourceTree = "<group>"; };
+		47E651A02B5EDC5600EA1AC1 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppButton.swift; path = ../../../../../../../AppButton.swift; sourceTree = "<group>"; };
+		47E651A22B5EEE2100EA1AC1 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelStyle.swift; path = ../../../../../../../LabelStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E651782B5EAB4900EA1AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E651722B5EAB4900EA1AC1 = {
+			isa = PBXGroup;
+			children = (
+				47E6517D2B5EAB4900EA1AC1 /* iPhoto */,
+				47E6517C2B5EAB4900EA1AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E6517C2B5EAB4900EA1AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E6517B2B5EAB4900EA1AC1 /* iPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E6517D2B5EAB4900EA1AC1 /* iPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				47E651962B5EAF9D00EA1AC1 /* components */,
+				47E6518C2B5EAC2700EA1AC1 /* screens */,
+				47E6517E2B5EAB4900EA1AC1 /* iPhotoApp.swift */,
+				47E651802B5EAB4900EA1AC1 /* ContentView.swift */,
+				47E651822B5EAB4A00EA1AC1 /* Assets.xcassets */,
+				47E651842B5EAB4A00EA1AC1 /* Preview Content */,
+			);
+			path = iPhoto;
+			sourceTree = "<group>";
+		};
+		47E651842B5EAB4A00EA1AC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47E651852B5EAB4A00EA1AC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47E6518C2B5EAC2700EA1AC1 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				47E6518D2B5EAC3400EA1AC1 /* PhotoList.swift */,
+				47E651902B5EAC8E00EA1AC1 /* ForYou.swift */,
+				47E651922B5EACB600EA1AC1 /* Albums.swift */,
+				47E651942B5EACC400EA1AC1 /* Search.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		47E651962B5EAF9D00EA1AC1 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				47E6519F2B5EDC4C00EA1AC1 /* primitive */,
+				47E651992B5EB10A00EA1AC1 /* PhotosGridView.swift */,
+				47E6519B2B5EDB2D00EA1AC1 /* TopListActions.swift */,
+				47E6519D2B5EDB5600EA1AC1 /* BottomFilter.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		47E6519F2B5EDC4C00EA1AC1 /* primitive */ = {
+			isa = PBXGroup;
+			children = (
+				47E651A02B5EDC5600EA1AC1 /* AppButton.swift */,
+				47E651A22B5EEE2100EA1AC1 /* LabelStyle.swift */,
+			);
+			path = primitive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E6517A2B5EAB4900EA1AC1 /* iPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E651892B5EAB4A00EA1AC1 /* Build configuration list for PBXNativeTarget "iPhoto" */;
+			buildPhases = (
+				47E651772B5EAB4900EA1AC1 /* Sources */,
+				47E651782B5EAB4900EA1AC1 /* Frameworks */,
+				47E651792B5EAB4900EA1AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoto;
+			productName = iPhoto;
+			productReference = 47E6517B2B5EAB4900EA1AC1 /* iPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E651732B5EAB4900EA1AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					47E6517A2B5EAB4900EA1AC1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 47E651762B5EAB4900EA1AC1 /* Build configuration list for PBXProject "iPhoto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E651722B5EAB4900EA1AC1;
+			productRefGroup = 47E6517C2B5EAB4900EA1AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E6517A2B5EAB4900EA1AC1 /* iPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E651792B5EAB4900EA1AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E651862B5EAB4A00EA1AC1 /* Preview Assets.xcassets in Resources */,
+				47E651832B5EAB4A00EA1AC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E651772B5EAB4900EA1AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E651932B5EACB600EA1AC1 /* Albums.swift in Sources */,
+				47E651812B5EAB4900EA1AC1 /* ContentView.swift in Sources */,
+				47E6517F2B5EAB4900EA1AC1 /* iPhotoApp.swift in Sources */,
+				47E651952B5EACC400EA1AC1 /* Search.swift in Sources */,
+				47E6518E2B5EAC3400EA1AC1 /* PhotoList.swift in Sources */,
+				47E6519A2B5EB10A00EA1AC1 /* PhotosGridView.swift in Sources */,
+				47E6519E2B5EDB5600EA1AC1 /* BottomFilter.swift in Sources */,
+				47E651912B5EAC8E00EA1AC1 /* ForYou.swift in Sources */,
+				47E651A32B5EEE2100EA1AC1 /* LabelStyle.swift in Sources */,
+				47E6519C2B5EDB2D00EA1AC1 /* TopListActions.swift in Sources */,
+				47E651A12B5EDC5600EA1AC1 /* AppButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47E651872B5EAB4A00EA1AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47E651882B5EAB4A00EA1AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E6518A2B5EAB4A00EA1AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoto/Preview Content\"";
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This App requires you to allow permissions for your media";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grivefreely.hometest.iPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E6518B2B5EAB4A00EA1AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoto/Preview Content\"";
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This App requires you to allow permissions for your media";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grivefreely.hometest.iPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E651762B5EAB4900EA1AC1 /* Build configuration list for PBXProject "iPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E651872B5EAB4A00EA1AC1 /* Debug */,
+				47E651882B5EAB4A00EA1AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E651892B5EAB4A00EA1AC1 /* Build configuration list for PBXNativeTarget "iPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E6518A2B5EAB4A00EA1AC1 /* Debug */,
+				47E6518B2B5EAB4A00EA1AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47E651732B5EAB4900EA1AC1 /* Project object */;
+}
